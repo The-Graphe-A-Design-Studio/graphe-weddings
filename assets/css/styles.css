@@ -27,10 +27,6 @@ body{
     color: #ffd7b6;
 }
 
-.container-fluid{
-    padding: 0 !important;
-}
-
 .home-banner{
     background-image: url('../img/home-banner/backg.png');
     width: 100%;
