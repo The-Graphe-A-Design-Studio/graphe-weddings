@@ -1,13 +1,26 @@
-:root{
-    --font-fam: url('../fonts/Nexa/Nexa\ Regular.otf');
+/* @import url('../fonts/Nexa/Nexa-Regular.otf'); */
+
+@font-face {
+    font-family: 'Nexa';
+    font-weight: normal;
+    src: url("../fonts/Nexa/Nexa-Regular.otf") format("opentype");
 }
+
+:root{
+    --font-fam: 'Nexa';
+}
+
 body{
+    font-family: var(--font-fam);
     background-color: #181818;
 }
 
 .nav-link{
     color: #FFBF8A;
     font-family: var(--font-fam);
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .nav-link:hover{
@@ -27,13 +40,11 @@ body{
 .content{
     font-family: var(--font-fam);
     font-weight: 400;
-font-size: 27.6366px;
-line-height: 46px;
-text-align: center;
-text-transform: capitalize;
-
-color: #FFBF8A;
-
+    font-size: 27.6366px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFBF8A;
 }
 
 h2{
