@@ -27,11 +27,19 @@ body{
     color: #ffd7b6;
 }
 
-.backg{
+.container-fluid{
+    padding: 0 !important;
+}
+
+.home-banner{
     background-image: url('../img/home-banner/backg.png');
     width: 100%;
     height: 40%;
-    padding: 8%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
@@ -40,7 +48,6 @@ body{
 .content{
     font-family: var(--font-fam);
     font-weight: 400;
-    font-size: 27.6366px;
     line-height: 46px;
     text-align: center;
     text-transform: capitalize;
@@ -48,6 +55,20 @@ body{
 }
 
 h2{
-    text-shadow: 2px 2px #FFBF8A;
     font-family: var(--font-fam);
+    font-size: 1.97rem;
+}
+
+h3{
+    font-size: 2.3rem;
+}
+h5{
+    font-size: 1.7rem;
+    width: 30.5rem;
+}
+
+.box{
+    padding: 34%;
+    background-color: #1D1D1D;
+    border: 1.45px solid #FFC18E;
 }
