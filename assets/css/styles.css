@@ -197,6 +197,11 @@ text-decoration: none;
     color: #FFBF8A;
 }
 
+.btn:hover{
+    background-color: #FFBF8A;
+    color: #181818;
+}
+
 #cf {
     position:relative;
     height:281px;
@@ -225,3 +230,7 @@ text-decoration: none;
       color: #FFBF8A;
       text-decoration: none;
   }
+
+.section7{
+    background-color: #FFC18E;
+}
