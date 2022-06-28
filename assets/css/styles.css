@@ -8,6 +8,7 @@
 
 :root{
     --font-fam: 'Nexa';
+    overflow-x: hidden;
 }
 
 html,body{
@@ -59,18 +60,20 @@ h2{
 }
 
 h3{
+    font-family: var(--font-fam);
     font-size: 2.3rem;
 }
 h5{
+    font-family: var(--font-fam);
     font-size: 1.7rem;
     width: 30.5rem;
 }
 
 .box{
-    padding: 34%;
+    padding: 30%;
     background-color: #1D1D1D;
     border: 1.45px solid #FFC18E;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: var(--font-fam);
 }
 
@@ -101,7 +104,7 @@ h5{
 
 .carousel-caption {
     left: 50%;
-  top: 51%;
+  top: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0.82);
   box-shadow: 6.06756px 15.1689px 21.2365px rgba(0, 0, 0, 0.38);
@@ -128,6 +131,7 @@ width: 80%;
     top: 100% !important;
 }
 
+
 .itallic{
     text-decoration: none;
     color: #181818;
@@ -139,17 +143,52 @@ width: 80%;
     color: #FFBF8A;
     font-size: 2.7rem;
     text-align: left;
-    margin-left: 10%;
     font-family: var(--font-fam);
     font-style: normal;
     line-height: 139.6%;
 letter-spacing: 0.045em;
 }
-.download{
+.download p{
+    color: #FFBF8A;
+    font-size: 1.1rem;
+    text-align: left;
+    font-family: var(--font-fam);
+    font-style: normal;
+letter-spacing: 0.045em;
+}
+
+.download-content{
+    margin-left: 16%;
+}
+
+.ios{
     color: #FFBF8A;
     font-size: 1rem;
     text-align: left;
     font-weight: 400;
+    text-align: left;
+    font-family: var(--font-fam);
+    font-style: normal;
+    padding: 0.7rem 3rem;
+    box-sizing: border-box;
+border: 1.7176px solid #FFC18E;
+border-radius: 2.57641px;
+letter-spacing: 0.045em;
+text-decoration: none;
+}
+
+.android{
+    color: #FFBF8A;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 400;
+    text-align: left;
+    font-family: var(--font-fam);
+    font-style: normal;
+    padding: 0.7rem 1.9rem;
+    box-sizing: border-box;
+border: 1.7176px solid #FFC18E;
+border-radius: 2.57641px;
 letter-spacing: 0.045em;
 text-decoration: none;
 }
@@ -157,3 +196,32 @@ text-decoration: none;
 .download:hover{
     color: #FFBF8A;
 }
+
+#cf {
+    position:relative;
+    height:281px;
+    width: 350px;
+    margin-top: 8%;
+  }
+  
+  #cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #cf img.top:hover {
+    opacity:0;
+  }
+
+  .footer{
+      color: #FFBF8A;
+  }
+
+  .footer a{
+      color: #FFBF8A;
+      text-decoration: none;
+  }
