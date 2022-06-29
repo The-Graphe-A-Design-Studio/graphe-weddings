@@ -22,7 +22,7 @@
 
     <!--Navbar Start-->
 
-    <section class="section1 container-fluid">
+    <section class="section1 container-fluid p-0">
       <nav class="navbar navbar-expand-xl mt-4">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -167,11 +167,11 @@
       <div class="mt-5 banner-2">
         
         <!--Instagram Icon-->
-        <a href="#instagram"><img src="./assets/img/icons/instagram.png" width="40px" class="ms-3 instagram"/></a>
+        <a href="#instagram"><img src="./assets/img/icons/instagram.png" width="40px" class="ms-4 instagram"/></a>
 
         <!--Testimonials-->
         
-        <!-- <div class="testimonial d-block d-lg-block">
+        <div class="testimonial d-block d-lg-none">
           <div id="robotcarousel" class="carousel slide" data-bs-ride="carousel">
   
             <div class="carousel-indicators">
@@ -180,8 +180,8 @@
               <button type="button" id="btnn" data-bs-target="#robotcarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             
-            <div class="carousel-inner ">
-              <div class="carousel-item active">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="5000">
                 <div class="carousel-caption">
                   <div class="container d-flex justify-content-center">
                     <p>
@@ -193,7 +193,7 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-interval="5000">
                 <div class="carousel-caption">
                   <div class="container d-flex justify-content-center">
                     <p>
@@ -205,7 +205,7 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-interval="5000">
                 <div class="carousel-caption">
                   <div class="container d-flex justify-content-center">
                     <p>
@@ -220,7 +220,7 @@
             </div>
             
           </div>
-        </div> -->
+        </div>
         
         <div class="testimonial d-none d-lg-block">
           <div id="robotcarousel" class="carousel slide" data-bs-ride="carousel">
@@ -276,7 +276,6 @@
         </div>
     </section>
 
-
     <!--Banner 2 End-->
 
 
@@ -331,25 +330,29 @@
     <section class="section6 container-fluid p-0">
 
       <!--Logo-->
-      <div class="logo container mt-5 ms-lg-5 d-block d-lg-none">
-        <img src="./assets/img/logo/weddings-logo.png" width="300px"/>
+      <div class="logo container mt-5 ms-2 d-block d-lg-none mb-3">
+        <img src="./assets/img/logo/weddings-logo.png" width="270px"/>
       </div>
 
-      <div class="logo container mt-5 ms-lg-5 d-none d-lg-block">
+      <div class="logo container mt-5 ms-2 ms-xxl-3 d-none d-lg-block d-xxl-none mb-5">
         <img src="./assets/img/logo/weddings-logo.png" width="400px"/>
       </div>
 
+      <div class="logo container mt-5 ms-2 ms-xxl-3 d-none d-xxl-block mb-5">
+        <img src="./assets/img/logo/weddings-logo.png" width="650px"/>
+      </div>
+
       <!--Info footer-->
-      <div class="row footer mt-4 mb-4">
-        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center mt-3">
+      <div class="row footer mt-4 mb-4 ms-1">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex mt-3">
           <div class="row">
             <div class="col-12">
               <a>
                 <div class="row">
-                  <div class="col-2 justify-content-center">
-                    <img src="./assets/img/icons/phone.png" class="ms-lg-5 ms-3 ms-md-4" width="20px"/>
+                  <div class="col-1">
+                    <img src="./assets/img/icons/phone.png" class="ms-2 ms-xxl-3" width="15px"/>
                   </div>
-                  <div class="col-10 justify-content-center">
+                  <div class="col-11">
                     +91 9826714541
                   </div>
                 </div>
@@ -358,10 +361,10 @@
             <div class="col-12 mt-3 mt-lg-0">
               <a>
                 <div class="row">
-                  <div class="col-2 justify-content-center">
-                    <img src="./assets/img/icons/location.png" class="ms-lg-5 ms-md-4 ms-3" width="25px"/>
+                  <div class="col-1">
+                    <img src="./assets/img/icons/location.png" class=" ms-2 ms-xxl-3" width="20px"/>
                   </div>
-                  <div class="col-10 justify-content-center">
+                  <div class="col-11 address">
                     Godrej Genesis Building, 11th Floor, EN-34, EN Block, Sector V, Bidhannagar, Kolkata, West Bengal 700105
                   </div>
                 </div>
@@ -370,10 +373,10 @@
             <div class="col-12 mt-3 mb-3 mt-lg-0 mb-lg-0">
               <a>
                 <div class="row">
-                  <div class="col-2 justify-content-center">
-                    <img src="./assets/img/icons/mail.png" class="ms-lg-5 ms-md-4 ms-3" width="20px"/>
+                  <div class="col-1">
+                    <img src="./assets/img/icons/mail.png" class="ms-2 ms-xxl-3" width="15px"/>
                   </div>
-                  <div class="col-10 justify-content-center">
+                  <div class="col-11">
                     connect@thegraphe.com
                   </div>
                 </div>
@@ -381,7 +384,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-flex justify-content-center mt-3">
+        <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-flex justify-content-start ms-2 ms-md-0 mt-3">
           <div class="row">
             <div class="col-12">
               <h6>HELP</h6>
@@ -396,7 +399,7 @@
           </div>          
         </div>
 
-        <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-flex justify-content-center mt-3">
+        <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 d-flex justify-content-start ms-2 ms-md-0 mt-3">
           <div class="row">
             <div class="col-12">
               <h6>QUICK LINKS</h6>
@@ -421,10 +424,10 @@
     <div class="section7 container-fluid p-0">
       <div class="row mt-3">
         <div class="col-12 col-md-5 mt-3 justify-content-center d-block d-md-none">
-          <p class="ms-3">© 2022 Graphē Weddings. All rights reserved.</p>
+          <p class="ms-4">© 2022 Graphē Weddings. All rights reserved.</p>
         </div>
         <div class="col-12 col-md-5 mt-3 d-none d-md-block">
-          <p class="ms-3">© 2022 Graphē Weddings. All rights reserved.</p>
+          <p class="ms-4">© 2022 Graphē Weddings. All rights reserved.</p>
         </div>
         <div class="col-12 col-md-7 d-flex justify-content-end mt-3">
           <div class="row">
