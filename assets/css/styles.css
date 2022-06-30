@@ -75,6 +75,8 @@ h5{
     border: 1.45px solid #FFC18E;
     font-size: 1.1rem;
     font-family: var(--font-fam);
+    width: 300px;
+    height: 300px;
 }
 
 .banner-2{
