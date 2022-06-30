@@ -157,10 +157,6 @@ letter-spacing: 0.045em;
 letter-spacing: 0.045em;
 }
 
-.download-content{
-    margin-left: 4%;
-}
-
 .ios{
     color: #FFBF8A;
     font-size: 1rem;
@@ -246,7 +242,6 @@ text-decoration: none;
     .plan p{
         font-size: 3.6rem;
         width: 90%;
-        margin-left: -6rem;
     }
     .download p{
         font-size: 1.6rem;
@@ -299,21 +294,21 @@ text-decoration: none;
     .carousel-caption{
         width: 57%;
         height: 60%;
-        margin-left: -1.5rem;
+        margin-left: -1rem;
     }
 }
 @media screen and (min-width: 361px) and (max-width: 400px){
     .carousel-caption{
         width: 57%;
         height: 60%;
-        margin-left: -2.5rem;
+        margin-left: -2.7rem;
     }
 }
 @media screen and (min-width:326px) and (max-width: 360px){
     .carousel-caption{
         width: 57%;
         height: 60%;
-        margin-left: -4.5rem;
+        margin-left: -4.3rem;
     }
 }
 @media screen and (max-width: 325px){
@@ -321,5 +316,10 @@ text-decoration: none;
         width: 57%;
         height: 60%;
         margin-left: -5rem;
+    }
+}
+@media screen and (min-width: 1024px){
+    .download-content{
+        margin-left: 10%;
     }
 }
