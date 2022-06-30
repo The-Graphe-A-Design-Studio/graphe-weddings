@@ -228,7 +228,7 @@ text-decoration: none;
       text-decoration: none;
   }
 
-.section7{
+.section8{
     background-color: #FFC18E;
 }
 .address{
@@ -322,4 +322,29 @@ text-decoration: none;
     .download-content{
         margin-left: 10%;
     }
+}
+@media screen and (min-width: 699px) and (max-width: 991px) {
+    .mobile-app img{
+        width: 40% !important;
+    }
+    .box{
+        padding: 15%;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .mobile-app img{
+        width: 80% !important;
+    }
+    .box{
+        padding: 15%;
+    }
+    .footer h6{
+        font-size: 1rem;
+    }
+    .footer a{
+        font-size: 1.1rem;
+    }
+    
 }
